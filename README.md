@@ -12,9 +12,9 @@ Il est nécessaire de lancer un Run à partir de la classe Main afin de lancer u
 Si vous voulez faire varier les paramètres de la partie (nombre de joueur, nombre de dés par gobelet, nombre de tour) il faudra modifier manuellement les valeurs au niveau de l'instanciation des différents objets.
 
 
-#Remarque
+# Remarque
 Le programme n'est pas fonctionnel, il reste une phase de débugage à réaliser. Comming soon ...
 
-#Auteurs
+# Auteurs
 Julien Pestel, apprenti développeur 
 
