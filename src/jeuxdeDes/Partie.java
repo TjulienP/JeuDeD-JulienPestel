@@ -1,5 +1,6 @@
 package jeuxdeDes;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -11,7 +12,7 @@ public class Partie extends Joueur {
     /**
      * Ce tableau contient la liste des joueurs de la partie.
      */
-    String[] joueurs;
+    List<String> joueurs = new ArrayList<String>();
     /**
      * Cette attribut correspond au nombre de tours de la partie.
      */
@@ -45,9 +46,9 @@ public class Partie extends Joueur {
      * Cette méthode permet d'initialiser le tableau contenant la liste des joueurs.
      * @param nom_joueur
      */
-    public void initialiser(String... nom_joueur){
+    public void initialiser(String nom_joueur){
 
-        this.joueurs = nom_joueur;
+        joueurs.add(nom_joueur);
     }
 
     /**

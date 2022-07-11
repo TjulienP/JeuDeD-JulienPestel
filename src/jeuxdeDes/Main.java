@@ -9,7 +9,7 @@ public class Main {
         Joueur joueur2 = new Joueur("Lucien");
         Joueur joueur3 = new Joueur("Raymond");
 
-        partie1.initialiser("Gerard", "Lucien","Raymond");
+        partie1.initialiser("Gerard");
 
 
         partie1.lancer(gobelet);
