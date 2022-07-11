@@ -4,6 +4,7 @@ package jeuxdeDes;
  *
  */
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -18,7 +19,6 @@ public class Gobelet extends De {
      * Ce tableau représente les dés contenus dans le gobelet.
      */
     public int [] Des;
-
 
     //Constructeurs
 

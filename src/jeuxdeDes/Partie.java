@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Partie extends Joueur {
     //Attributs
     /**
-     * Ce tableau contient la liste des joueurs de la partie.
+     * Cette liste contient la liste des joueurs de la partie.
      */
     List<String> joueurs = new ArrayList<String>();
     /**
@@ -43,12 +43,14 @@ public class Partie extends Joueur {
     //Methodes
 
     /**
-     * Cette méthode permet d'initialiser le tableau contenant la liste des joueurs.
-     * @param nom_joueur
+     * Cette méthode permet d'initialiser la liste contenant la liste des joueurs.En remplissant le tableau avec les noms fournis
+     * @param nom_joueur1
      */
-    public void initialiser(String nom_joueur){
+    public void initialiser(String nom_joueur1, String nom_joueur2, String nom_joueur3){
 
-        joueurs.add(nom_joueur);
+        joueurs.add(nom_joueur1);
+        joueurs.add(nom_joueur2);
+        joueurs.add(nom_joueur3);
     }
 
     /**
